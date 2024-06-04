@@ -32,10 +32,10 @@ Purpose: To identify natural clusters in the dataset and improve clustering effi
 Approach: Applied PCA to reduce dimensionality before performing K-means clustering.
 Results: Enhanced the clustering process by simplifying the data structure, allowing for clearer identification of distinct student groups.
 
-Key Findings
+Key Findings:
 The Logistic Regression Model provided a straightforward baseline with reasonable accuracy, but it lacked the depth of insights offered by more complex models.
 The Random Forest Model not only matched the accuracy of other models but also provided valuable feature importance metrics, making it the most informative model regarding which features most strongly influence student outcomes.
 Applying PCA before the K-means algorithm improved the clustering process, highlighting distinct groups within the student population that can be targeted for specific interventions.
-
-Conclusion
+The number of approved semester courses and the corresponding grades were the leading predictors - particularly 2nd semester. While we start to see some demographic predictors in the top half, the strongest indicators are directly tied to academic performance. It was interesting to find that nationality, marital status, displacement, gender, and daytime/evening attendance had very little importance on predicting accurate outcomes.
+Conclusion:
 The dataset from the UC Irvine Machine Learning Repository proved to be a robust foundation for developing predictive models for student dropout rates and academic success. Among the models developed, the Random Forest Model stood out for its accuracy and the depth of insights it provided. Using PCA enhanced the efficiency of the K-means clustering algorithm, demonstrating the value of dimensionality reduction in unsupervised learning tasks. These models can significantly aid educational institutions in identifying at-risk students early and implementing targeted interventions to improve student retention and success.
