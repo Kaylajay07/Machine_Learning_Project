@@ -17,10 +17,15 @@ Purpose: To provide a simple yet effective baseline model for classification.
 Performance Evaluation: A confusion matrix was generated to evaluate the model's performance.
 Results: Provided insight into the classification accuracy and the distribution of true positives, false positives, true negatives, and false negatives.
 
+<img width="472" alt="Screenshot 2024-06-03 at 9 12 03 PM" src="https://github.com/Kaylajay07/Machine_Learning_Project/assets/150884466/fa564fda-ab44-4123-91a0-e56ac646e76c">
+
+
 Random Forest Model
 Purpose: To leverage the ensemble learning approach for improved accuracy and to gain insights into feature importance.
 Performance Evaluation: Offered higher accuracy and detailed feature importance metrics, helping us understand which factors most significantly impact student outcomes.
 Results: Achieved an overall accuracy of 78%, with the highest performance in predicting students who would graduate.
+<img width="641" alt="Screenshot 2024-06-03 at 9 22 22 PM" src="https://github.com/Kaylajay07/Machine_Learning_Project/assets/150884466/20033edc-b02f-40ad-908a-7d0d18fb0e04">
+
 
 K-Means Clustering with PCA
 Purpose: To identify natural clusters in the dataset and improve clustering efficiency using Principal Component Analysis (PCA).
